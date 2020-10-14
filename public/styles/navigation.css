@@ -2,11 +2,21 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
   background-color: black;
+  overflow: hidden;  
   display: flex;
   justify-content: flex-end;
   padding-right: 120px;
+}
+
+li img {
+  margin-right: auto;
+  width: 60px;
+}
+
+#right {
+  margin-left: auto;
+  color: white;
 }
 
 li a {
