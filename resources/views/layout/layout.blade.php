@@ -27,6 +27,7 @@
   <main>
     @yield ('meals')
     @yield ('content')
+    @yield ('reviews')
   </main>
 
   <footer>

@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ReviewsController;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,6 +18,4 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get('/reviews', function () {
-    return view('reviews');
-});
+Route::get('/reviews', 'App\Http\Controllers\ReviewsController@show');

@@ -12,3 +12,18 @@
 </form>
 
 @endsection
+
+@section ('reviews')
+<div class="review">
+  <ul>
+    @foreach ($reviews as $review)
+    <li>
+      <p>{{ $review->name}}</p>
+      <p>{{ $review->rating}}</p>
+      <p>{{ $review->comment}}</p>
+    </li>
+    @endforeach
+  </ul>
+</div>
+
+@endsection
