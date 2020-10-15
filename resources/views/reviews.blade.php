@@ -7,7 +7,7 @@
 
     <form action="/action_page.php">
       <label for="name">Name:</label><br>
-      <input type="text" id="name" name="name" value="Jane"><br>
+      <input type="text" id="name" name="name" value=""><br>
       <p class="star-label">Rating:</p>
       <div class="star-widget">
         <input type="radio" name="rate" id="rate-5">

@@ -3,18 +3,19 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* HEADER */
 header {
     background-image: url("https://images.unsplash.com/photo-1555396273-367ea4eb4db5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2767&q=80");
-    min-height: 700px;
+    min-height: 750px;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .overlay {
-    min-height: 700px;
+    min-height: 750px;
     background-color: rgb(0, 0, 0, 0.7);
 }
 
@@ -24,6 +25,7 @@ h1 {
     text-align: center;
     margin: auto;
     padding-top: 180px;
+    font-family: 'McLaren', cursive;
 }
 
 p {
@@ -77,12 +79,19 @@ h2 {
     text-align: center;
     padding-top: 40px;
     font-size: 40px;
+    color: rgb(213, 11, 11);
+    font-family: 'McLaren', cursive;
+}
+
+.container-reviews h2 {
+    color: white;
+    text-shadow: 1px 1px 2px black, 3px 3px 3px rgba(213, 11, 11, 0.783), 5px 5px 6px green;
 }
 
 .description {
     color: black;
-    font-size: 18px;
-    padding: 16px 24px;
+    font-size: 16px;
+    padding: 16px 60px;
     font-style: italic;
 }
 
@@ -99,11 +108,14 @@ form {
 input[type=text] {
     width: 100%;
     padding: 12px 20px;
-    margin: 8px 0;
+    margin: 16px 0;
     display: inline-block;
-    border: 1px solid #ccc;
+    border: 1px solid rgba(213, 11, 11, 0.269);
     border-radius: 4px;
     box-sizing: border-box;
+    background-color: rgba(213, 11, 11, 0.269);
+    color: white;
+    font-size: 16px;
 }
 
 .star-widget {
@@ -111,6 +123,7 @@ input[type=text] {
     align-items: center;
     justify-content: flex-end;
     flex-direction: row-reverse;
+    margin-bottom: 16px;
 }
 
 .star-widget input {
@@ -119,15 +132,17 @@ input[type=text] {
 
 .star-widget label {
     font-size: 30px;
-    color: #444;
+    color: rgba(213, 11, 11, 0.269);
     padding: 10px;
     transition: all 0.2s ease;
 }
 
-.star-label {
-    color: black;
+.star-label,
+label {
+    color: rgb(254, 227, 227);
     font-size: 20px;
     text-align: left;
+    margin-bottom: 16px;
 }
 
 input:not(:checked)~label:hover,
@@ -149,13 +164,32 @@ textarea {
     height: 150px;
     padding: 12px 20px;
     box-sizing: border-box;
-    border: 1px solid #ccc;
+    border: 1px solid rgba(213, 11, 11, 0.269);
     border-radius: 4px;
     resize: none;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    background-color: rgba(213, 11, 11, 0.269);
+}
+
+input[type=submit] {
+    background-color: rgba(213, 11, 11, 0.358);
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 100%;
+}
+
+input[type=submit]:hover {
+    background-color: green;
 }
 
 .container-reviews {
-    margin: 20px 60px;
+    padding: 20px 60px;
+    background-color: rgb(14, 6, 6);
 }
 
 .reviews {
@@ -171,9 +205,9 @@ textarea {
 }
 
 .reviews p {
-    color: black;
+    color: white;
     text-align: center;
-    background-color: grey;
+    background-color: rgba(213, 11, 11, 0.269);
 }
 
 .writer {
