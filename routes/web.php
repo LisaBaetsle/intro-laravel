@@ -18,4 +18,5 @@ Route::get('/', function () {
     return view('home');
 });
 
+Route::post('/reviews', 'App\Http\Controllers\ReviewsController@store');
 Route::get('/reviews', 'App\Http\Controllers\ReviewsController@show');

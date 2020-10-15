@@ -8,6 +8,21 @@ class ReviewsController extends Controller
 {
   public function show()
   {
-    return view('reviews', ['reviews' => Review::all()]);
+    $reviews = Review::latest()->get();
+
+    return view('reviews', ['reviews' => $reviews]);
+  }
+
+  public function store()
+  {
+    $review = new Review();
+
+    $review->name = request('name');
+    $review->rating = request('rating');
+    $review->comment = request('comment');
+
+    $review->save();
+
+    return redirect('/reviews');
   }
 }
