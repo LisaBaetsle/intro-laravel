@@ -10,7 +10,7 @@
 
       <div class="name-container">
         <label for="name">Name:</label><br>
-        <input type="text" id="name" name="name" value=""><br>
+        <input type="text" id="name" name="name" value="{{ old('name') }}"><br>
         @error('name')
         <p class="error-message">{{ $errors->first('name')}}</p>
         @enderror
@@ -37,7 +37,7 @@
 
       <div class="comment-container">
         <label for="comment">Comment:</label><br>
-        <textarea name="comment" rows="10" cols="30"></textarea><br>
+        <textarea name="comment" rows="10" cols="30">{{ old('comment') }}</textarea><br>
         @error('comment')
         <p class="error-message">{{ $errors->first('comment')}}</p>
         @enderror
