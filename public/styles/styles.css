@@ -86,3 +86,108 @@ h2 {
     font-style: italic;
 }
 
+.write-review {
+    margin-left: 24%;
+    margin-right: 24%;
+}
+
+form {
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.star-widget {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+}
+
+.star-widget input {
+    display: none;
+}
+
+.star-widget label {
+    font-size: 30px;
+    color: #444;
+    padding: 10px;
+    transition: all 0.2s ease;
+}
+
+.star-label {
+    color: black;
+    font-size: 20px;
+    text-align: left;
+}
+
+input:not(:checked)~label:hover,
+input:not(:checked)~label:hover~label {
+    color: #fd4;
+}
+
+input:checked~label {
+    color: #fd4;
+}
+
+input#rate-5:checked~label {
+    color: #fe7;
+    text-shadow: 0 0 20px #952;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+}
+
+.container-reviews {
+    margin: 20px 60px;
+}
+
+.reviews {
+    margin-left: 24%;
+    margin-right: 24%;
+}
+
+.reviews ul {
+    list-style-type: none;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+}
+
+.reviews p {
+    color: black;
+    text-align: center;
+    background-color: grey;
+}
+
+.writer {
+    padding-top: 40px;
+    font-size: 18px;
+}
+
+.rating {
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.comment {
+    font-size: 24px;
+    padding: 30px 0 40px;
+    margin-bottom: 30px;
+}

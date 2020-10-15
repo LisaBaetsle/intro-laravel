@@ -1,4 +1,4 @@
-ul {
+nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -9,7 +9,7 @@ ul {
   padding-right: 120px;
 }
 
-li img {
+nav li img {
   margin-right: auto;
   width: 60px;
 }
@@ -19,7 +19,7 @@ li img {
   color: white;
 }
 
-li a {
+nav li a {
   display: block;
   color: white;
   text-align: center;
@@ -28,7 +28,7 @@ li a {
   font-size: 20px;
 }
 
-li a:hover {
+nav li a:hover {
   background-color: #111;
 }
 

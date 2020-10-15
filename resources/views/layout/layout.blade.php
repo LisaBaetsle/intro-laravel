@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="styles/navigation.css">
   <link rel="stylesheet" href="styles/styles.css">
   <link rel="stylesheet" href="styles/footer.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 
   <title>Home</title>
 </head>
