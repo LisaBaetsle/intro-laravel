@@ -108,7 +108,7 @@ form {
 
 input[type=text] {
     width: 100%;
-    padding: 12px 20px;
+    padding: 12px 20px 0 20px;
     margin: 16px 0;
     display: inline-block;
     border: 1px solid rgba(213, 11, 11, 0.269);
@@ -124,7 +124,7 @@ input[type=text] {
     align-items: center;
     justify-content: flex-end;
     flex-direction: row-reverse;
-    margin-bottom: 16px;
+    margin-bottom: 0;
 }
 
 .star-widget input {
@@ -169,7 +169,6 @@ textarea {
     border-radius: 4px;
     resize: none;
     margin-top: 16px;
-    margin-bottom: 16px;
     background-color: rgba(213, 11, 11, 0.269);
 }
 
@@ -225,6 +224,19 @@ input[type=submit]:hover {
 
 .comment {
     font-size: 24px;
-    padding: 30px 0 40px;
+    padding: 30px 20px 40px;
     margin-bottom: 30px;
+}
+
+.error-message {
+    font-size: 14px;
+    color: red;
+    text-align: left;
+    padding-bottom: 20px;
+    padding-top: 0;
+}
+
+.comment-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
