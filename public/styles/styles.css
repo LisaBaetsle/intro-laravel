@@ -98,6 +98,7 @@ h2 {
 .write-review {
     margin-left: 24%;
     margin-right: 24%;
+    padding-bottom: 60px;
 }
 
 form {
@@ -188,13 +189,15 @@ input[type=submit]:hover {
 }
 
 .container-reviews {
-    padding: 20px 60px;
+    padding: 0;
     background-color: rgb(14, 6, 6);
 }
 
 .reviews {
-    margin-left: 24%;
-    margin-right: 24%;
+    margin:0;
+    padding-left: 24%;
+    padding-right: 24%;
+    background-color: black;
 }
 
 .reviews ul {
@@ -207,7 +210,7 @@ input[type=submit]:hover {
 .reviews p {
     color: white;
     text-align: center;
-    background-color: rgba(213, 11, 11, 0.269);
+    background-color: rgb(14, 6, 6);
 }
 
 .writer {
