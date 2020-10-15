@@ -36,7 +36,6 @@
       @foreach ($reviews as $review)
       <li>
         <p class="writer">Writer: {{ $review->name}}</p>
-        <p class="rating">{{ $review->rating }}</p>
         <p class="rating">
           @if ($review->rating == 1)
           <i class="fas fa-star"></i>
