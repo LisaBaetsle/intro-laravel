@@ -6,12 +6,20 @@ nav ul {
   overflow: hidden;  
   display: flex;
   justify-content: flex-end;
-  padding-right: 120px;
+  align-items: center;
+  padding-right: 60px;
 }
 
 nav li img {
-  margin-right: auto;
-  width: 60px;
+  width: 40px;
+  padding-right:10px;
+  padding-left: 60px;
+}
+
+.logo-name {
+  color: white;
+  padding-left: 16px;
+  font-size: 20px;
 }
 
 #right {

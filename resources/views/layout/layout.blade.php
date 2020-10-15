@@ -16,7 +16,8 @@
 <body>
   <nav>
     <ul>
-      <li><img src="https://www.flaticon.com/svg/static/icons/svg/2909/2909894.svg" alt="tomato">Hakuna Tomatata</li>
+      <li><img src="https://www.flaticon.com/svg/static/icons/svg/2909/2909894.svg" alt="tomato"></li>
+      <li class="logo-name">HAKUNA TOMATATA</li>
       <li id="right" class="{{Request::path() === '/' ? 'current_page_item' : ''}}"><a href="/" accesskey="1">HOME</a></li>
       <li class="{{ Request::path() === 'reviews' ? 'current_page_item' : '' }}"><a href="/reviews" accesskey="2">REVIEWS</a></li>
     </ul>
