@@ -20,18 +20,20 @@ header {
 }
 
 h1 {
-    color: white;
+    font-family: 'McLaren', cursive;
     font-size: 68px;
+    color: white;
     text-align: center;
+
     margin: auto;
     padding-top: 180px;
-    font-family: 'McLaren', cursive;
 }
 
 p {
-    color: white;
     font-size: 32px;
+    color: white;
     text-align: center;
+
     margin: auto;
     padding-top: 30px;
 }
@@ -52,8 +54,9 @@ span {
 
 /* MEALS */
 .title {
-    color: black;
     font-size: 24px;
+    color: black;
+    
     padding-top: 20px;
 }
 
@@ -76,11 +79,12 @@ span {
 }
 
 h2 {
-    text-align: center;
-    padding-top: 40px;
+    font-family: 'McLaren', cursive;
     font-size: 40px;
     color: rgb(213, 11, 11);
-    font-family: 'McLaren', cursive;
+    text-align: center;
+
+    padding-top: 40px;
 }
 
 .container-reviews h2 {
@@ -89,12 +93,14 @@ h2 {
 }
 
 .description {
-    color: black;
     font-size: 16px;
-    padding: 16px 60px;
     font-style: italic;
+    color: black;
+    
+    padding: 16px 60px;
 }
 
+/* WRITE REVIEWS */
 .write-review {
     margin-left: 24%;
     margin-right: 24%;
@@ -106,19 +112,23 @@ form {
     margin-bottom: 70px;
 }
 
+/* name */
 input[type=text] {
+    font-size: 16px;
+    color: white;
+
     width: 100%;
-    padding: 12px 20px 0 20px;
+    padding: 12px 20px;
     margin: 16px 0;
     display: inline-block;
+
     border: 1px solid rgba(213, 11, 11, 0.269);
     border-radius: 4px;
     box-sizing: border-box;
     background-color: rgba(213, 11, 11, 0.269);
-    color: white;
-    font-size: 16px;
 }
 
+/* rating */
 .star-widget {
     display: flex;
     align-items: center;
@@ -140,9 +150,10 @@ input[type=text] {
 
 .star-label,
 label {
-    color: rgb(254, 227, 227);
     font-size: 20px;
     text-align: left;
+    color: rgb(254, 227, 227);
+    
     margin-bottom: 16px;
 }
 
@@ -160,20 +171,31 @@ input#rate-5:checked~label {
     text-shadow: 0 0 20px #952;
 }
 
+/* comment */
+.comment-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 textarea {
+    font-size: 16px;
+    color: white;
+
     width: 100%;
     height: 150px;
     padding: 12px 20px;
+    margin-top: 16px;
+
     box-sizing: border-box;
     border: 1px solid rgba(213, 11, 11, 0.269);
     border-radius: 4px;
     resize: none;
-    margin-top: 16px;
+
     background-color: rgba(213, 11, 11, 0.269);
 }
 
+/* submit */
 input[type=submit] {
-    background-color: rgba(213, 11, 11, 0.358);
     border: none;
     color: white;
     padding: 16px 32px;
@@ -181,12 +203,14 @@ input[type=submit] {
     margin: 4px 2px;
     cursor: pointer;
     width: 100%;
+    background-color: rgba(213, 11, 11, 0.358);
 }
 
 input[type=submit]:hover {
     background-color: green;
 }
 
+/* OTHER REVIEWS */
 .container-reviews {
     padding: 0;
     background-color: rgb(14, 6, 6);
@@ -207,8 +231,9 @@ input[type=submit]:hover {
 }
 
 .reviews p {
-    color: white;
     text-align: center;
+    color: white;
+    
     background-color: rgb(14, 6, 6);
 }
 
@@ -234,9 +259,4 @@ input[type=submit]:hover {
     text-align: left;
     padding-bottom: 20px;
     padding-top: 0;
-}
-
-.comment-container {
-    padding-top: 20px;
-    padding-bottom: 20px;
 }
