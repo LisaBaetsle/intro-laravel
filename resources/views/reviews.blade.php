@@ -46,9 +46,8 @@
       <input type="submit" value="Submit">
     </form>
   </div>
-  @endsection
 
-  @section ('reviews')
+
   <div class="reviews">
     <h2>Reviews from our guests</h2>
     <ul>

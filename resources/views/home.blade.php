@@ -16,7 +16,7 @@
 
 @endsection
 
-@section ('meals')
+@section ('content')
 <h2>Choose your favorite dish</h2>
 <div class="meals">
   <div class="first-meal meal">
